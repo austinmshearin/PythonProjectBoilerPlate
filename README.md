@@ -10,3 +10,9 @@ A Python project boiler plate that includes:
 * dev_requirements.txt: Python packages needed during development of a Python package
 * requirements.txt: Python packages needed for the Python package
 * setup.py: Python installation instructions for installing the Python package in an environment
+
+# Notes
+
+## Installing Python projects from private git repositories
+* A Python package stored in a private git repository can be installed using an ssh key
+* The format of the installation is: <package>@git+ssh://git@github.com/<organization>/<package>.git@main
