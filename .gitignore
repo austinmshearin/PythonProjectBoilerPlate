@@ -1,0 +1,17 @@
+# Python Virtual Environment Directory
+*_VirEnv/
+
+# Compiled Python Files
+*.pyc
+
+# Docker MySQL Database Files
+DB/MySQLContainerVolume/
+
+# Temporary Office files when file is open
+*~$*
+
+# Container volumes
+LocalUbuntuContainerVolume/
+LocalUbuntuDBContainerVolume/
+LocalUbuntuAWSContainerVolume/
+LocalPythonContainerVolume/
