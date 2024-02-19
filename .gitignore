@@ -4,14 +4,9 @@
 # Compiled Python Files
 *.pyc
 
-# Docker MySQL Database Files
-DB/MySQLContainerVolume/
-
 # Temporary Office files when file is open
 *~$*
 
-# Container volumes
-LocalUbuntuContainerVolume/
-LocalUbuntuDBContainerVolume/
-LocalUbuntuAWSContainerVolume/
-LocalPythonContainerVolume/
+# Visual Studio Code Preference Files
+*.code-workspace
+*.vscode

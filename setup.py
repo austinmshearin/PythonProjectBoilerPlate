@@ -6,12 +6,12 @@ with open('README.md', 'r', encoding='utf-8') as read_me_file:
 setuptools.setup(
     name='package',
     version='0.0.1',
-    author='Austin Shearin',
-    author_email='austinmshearin@gmail.com',
+    author='Author',
+    author_email='author@gmail.com',
     description='Python Project Boiler Plate',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/austinmshearin/PythonProjectBoilerPlate.git',
+    url='https://github.com/author/project.git',
     license='MIT',
     packages=[
         'package',

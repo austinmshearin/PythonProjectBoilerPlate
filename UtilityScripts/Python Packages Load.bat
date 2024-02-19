@@ -1,8 +1,12 @@
-@ECHO OFF
+@echo off
 cd /d %~dp0
 cd ..
 for %%I in (.) do set CurrDirName=%%~nxI
 set VirEnvName=%CurrDirName%_VirEnv
-CALL ./%VirEnvName%/Scripts/activate.bat
+call "./%VirEnvName%/Scripts/activate.bat"
+echo Loading all Python packages from requirements.txt into Python virtual environment
+set /p dummy=Press enter to continue or close to cancel
+echo Loading Python packages
 python -m pip install -r requirements.txt
-pause
+echo Loaded Python packages
+set /p dummy=Press enter to close
