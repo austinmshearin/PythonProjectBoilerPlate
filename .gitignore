@@ -8,5 +8,5 @@
 *~$*
 
 # Visual Studio Code Preference Files
-*.code-workspace
-*.vscode
+#*.code-workspace
+#*.vscode
