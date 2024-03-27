@@ -15,6 +15,7 @@ nltk
 notebook
 numpy
 pandas
+pivottablejs
 plotly
 psutil
 py2neo
