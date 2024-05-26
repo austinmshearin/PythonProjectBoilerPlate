@@ -14,6 +14,7 @@ matplotlib
 nltk
 notebook
 numpy
+openpyxl
 pandas
 pivottablejs
 plotly
