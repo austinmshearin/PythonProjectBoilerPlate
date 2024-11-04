@@ -38,3 +38,4 @@ statsmodels
 streamlit
 SQLAlchemy
 urllib3
+wheel

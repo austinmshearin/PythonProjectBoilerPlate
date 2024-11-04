@@ -17,6 +17,5 @@ setuptools.setup(
         'package',
         ],
     install_requires=[
-        
         ],
 )

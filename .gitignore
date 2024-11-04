@@ -10,3 +10,7 @@
 # Visual Studio Code Preference Files
 #*.code-workspace
 #*.vscode
+
+# Local Data Files
+data/**
+!.gitkeep
