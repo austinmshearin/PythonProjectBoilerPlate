@@ -19,6 +19,7 @@ pandas
 pivottablejs
 plotly
 psutil
+psycopg2
 py2neo
 pyarrow
 pymongo
@@ -36,6 +37,5 @@ seaborn
 spacy
 statsmodels
 streamlit
-SQLAlchemy
 urllib3
 wheel
