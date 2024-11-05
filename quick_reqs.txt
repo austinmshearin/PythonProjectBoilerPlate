@@ -4,6 +4,7 @@ bokeh
 boto3
 cryptography
 dask
+delta-spark
 elasticsearch
 flask
 jupyterlab
