@@ -1,14 +1,13 @@
 version: '3.7'
 
-name: sparknotebook
+name: spark-notebook
 
 services:
-  spark:
-    image: jupyter/pyspark-notebook
-    container_name: spark
+  spark-notebook:
+    build: .
+    container_name: spark-notebook
     volumes:
       -  "../../jupyter:/home/jovyan/jupyter"
       -  ../../data:/home/jovyan/data
     ports:
       -  8888:8888
-    command: ["start.sh jupyter notebook --NotebookApp.token=''"]

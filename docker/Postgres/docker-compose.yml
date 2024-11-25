@@ -4,17 +4,41 @@ name: postgres
 
 services:
   postgres:
-    image: postgis/postgis:latest
+    image: postgis/postgis:17-3.5
     container_name: postgres
     environment:
-        POSTGRES_DB: database
+        POSTGRES_DB: my_database
         POSTGRES_USER: user
         POSTGRES_PASSWORD: password
     ports:
-      -  5432:5432
+      - 5432:5432
     volumes:
-      -  postgres:/var/lib/postgresql/data
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - pg-net
+
+  pgadmin:
+    image: dpage/pgadmin4:8.13
+    container_name: pgadmin
+    environment:
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: 'False'
+      PGADMIN_DEFAULT_EMAIL: user@localhost.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    ports:
+      - 5050:80
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+      - ./servers.json:/pgadmin4/servers.json
+    networks:
+      - pg-net
 
 volumes:
-  postgres:
-    name: postgres
+  postgres-data:
+    name: postgres-data
+  pgadmin-data:
+    name: pgadmin-data
+
+networks:
+  pg-net:
+    driver: bridge
