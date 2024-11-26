@@ -4,11 +4,21 @@
 # Compiled Python Files
 *.pyc
 
-# Jupyter Checkpoint Files
-*-checkpoint.ipynb
+# Editable Python package directory
+*.egg-info/
+
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+# Build Files
+build/
+dist/
 
 # Temporary Office files when file is open
 *~$*
+
+# MacOS Files
+.DS_Store
 
 # Local Data Files
 data/**

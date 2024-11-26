@@ -55,13 +55,6 @@
 				}
 			},
 			{
-				"label": "Python Package Delete",
-				"type": "shell",
-				"windows": {
-					"command": "./utility_scripts/python_packages_delete.bat"
-				}
-			},
-			{
 				"label": "Python Packages Delete",
 				"type": "shell",
 				"windows": {
@@ -94,6 +87,13 @@
 				"type": "shell",
 				"windows": {
 					"command": "./utility_scripts/python_packages_load.bat"
+				}
+			},
+			{
+				"label": "Python Pytest",
+				"type": "shell",
+				"windows": {
+					"command": "./utility_scripts/python_pytest.bat"
 				}
 			},
 			{
