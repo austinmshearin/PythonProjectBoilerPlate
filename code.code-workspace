@@ -4,11 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {
-		"cSpell.words": [
-			"autopep"
-		]
-	},
+	"settings": {},
 	"tasks": {
 		"version": "2.0.0",
 		"tasks": [
