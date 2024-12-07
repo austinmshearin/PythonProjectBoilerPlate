@@ -18,6 +18,7 @@ notebook
 numpy
 openpyxl
 pandas
+pdoc
 pivottablejs
 plotly
 psutil

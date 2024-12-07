@@ -44,6 +44,13 @@
 				}
 			},
 			{
+				"label": "Python Package Documentation",
+				"type": "shell",
+				"windows": {
+					"command": "./utility_scripts/python_package_documentation.bat"
+				}
+			},
+			{
 				"label": "Python Package Editable Install",
 				"type": "shell",
 				"windows": {

@@ -8,5 +8,6 @@ echo Python package will be built according to setup.py
 set /p dummy=Press enter to build Python package or close to cancel
 echo Building Python package
 python setup.py bdist_wheel
+pdoc -o ./docs -d markdown ./package
 echo Python package built
 set /p dummy=Press enter to close

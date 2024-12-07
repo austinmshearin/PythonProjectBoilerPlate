@@ -25,6 +25,7 @@
         "nltk",
         "numpy",
         "openpyxl",
+        "pdoc",
         "pgadmin",
         "pivottablejs",
         "plotly",
