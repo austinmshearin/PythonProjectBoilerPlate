@@ -29,6 +29,7 @@ pymysql
 pyspark
 python-dateutil
 pytest
+pytest-cov
 pyyaml
 redis
 requests
