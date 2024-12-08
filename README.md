@@ -21,6 +21,7 @@ The parent directory for the project should not contain any spaces for the batch
 * autopep8
 * Blockman
 * Code Spell Checker
+* Coverage Gutters
 * Docker
 * Git Graph
 * Jupyter
