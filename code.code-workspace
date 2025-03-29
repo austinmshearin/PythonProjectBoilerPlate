@@ -30,6 +30,13 @@
 				}
 			},
 			{
+				"label": "Jupyter Start",
+				"type": "shell",
+				"windows": {
+					"command": "./utility_scripts/python_jupyter_start.bat"
+				}
+			},
+			{
 				"label": "Jupyter Initialization",
 				"type": "shell",
 				"windows": {
