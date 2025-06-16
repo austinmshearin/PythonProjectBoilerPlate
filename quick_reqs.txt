@@ -1,4 +1,5 @@
 autopep8
+bambi
 beautifulsoup4
 bokeh
 boto3
